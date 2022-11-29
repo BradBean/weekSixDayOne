@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica;
+  background-color: #d3d3d3;
+  color: black;
+}
+
+#appendToMe {
+  border-spacing: 0 .5em;
+  margin-bottom: 2em;
+}
+
+tr {
+  background-color: white;
+}
+
+td {
+  padding: 10px 20px;
+}
+
+td:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+td:last-child {
+  border-radius: 0 5px 5px 0;
+}
+.shrink-container {
+    width: 500px; 
+    margin: 0 auto;
+}
+
+#clickMe button {
+  padding: 10px;
+  font-family: Helvetica;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.darkModeBackground {
+    background-color: black;
+    color:white;
+}
+#appendToMe.dark tr {
+    background-color: #5A5A5A;
+    color: white;
+}
+.darkModeClickMe {
+    border-color: white;
+}
